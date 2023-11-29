@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Type-to-Track</title>
-    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <title>ASPIRe</title>
+    <link rel="icon" type="image/x-icon" href="static/images/UA_Logo.png">
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
     <link rel="stylesheet" href="static/css/bulma.min.css">
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -55,25 +55,27 @@
         </div>
     </section>
     <section class="hero teaser">
-        <div class="container is-max-desktop">
-            <div class="hero-body">
-                <div id="results-carousel" class="carousel results-carousel">
-                    <div class="item"> <video poster="static/images/teaser_mot.png" autoplay muted loop playsinline
-                            height="100%">
-                            <source src="static/videos/teaser_mot.mp4" type="video/mp4">
-                        </video> </div>
-                    <div class="item"> <video poster="static/images/teaser_mot.png" autoplay muted loop playsinline
-                            height="100%">
-                            <source src="static/videos/teaser_tao.mp4" type="video/mp4">
-                        </video> </div>
-                </div>
-                <div class="captions has-text-justified"><b>The responsive <i>Type-to-Track</i>:</b> The user provides a
-                    video sequence and a prompting request. During tracking, the system is able to discriminate
-                    appearance attributes to track the target subjects accordingly and iteratively responds to the
-                    user's tracking request. Each box color represents a unique identity.</div>
-            </div>
-        </div>
-    </section>
+      <div class="container is-max-desktop">
+          <div class="hero-body">
+              <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item"> <video poster="static/images/idea.png" autoplay muted loop playsinline
+                          height="100%">
+                          <source src="static/videos/demo-basketball.mp4" type="video/mp4">
+                      </video> </div>
+                  <div class="item"> <video poster="static/images/idea.png" autoplay muted loop playsinline
+                          height="100%">
+                          <source src="static/videos/demo-umbrella.mp4" type="video/mp4">
+                      </video> </div>
+                  <div class="item"> <video poster="static/images/idea.png" autoplay muted loop playsinline
+                        height="100%">
+                        <source src="static/videos/demo-film.mp4" type="video/mp4">
+                    </video> </div>
+              </div>
+              <div class="captions has-text-justified">Qualitative results of <i>position</i>, <i>interaction</i>, and <i>relation</i> 
+                from scene graphs generated from the <b><i>Hierarchical Interlacement Graph (HIG)</i></b> model on our <b><i>ASPIRe</i></b> dataset.</div>
+          </div>
+      </div>
+  </section>
     <section class="section hero is-light">
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
@@ -85,8 +87,8 @@
                           These methods, however, struggle with a diversity of appearance, situation, position, interaction, and relation in videos. 
                           This limitation hinders the ability to fully comprehend the interplay within the complex visual dynamics of subjects. 
                           In this paper, we delve into interactivities understanding within visual content by deriving scene graph representations from dense interactivities among humans and objects. 
-                          To achieve this goal, we first present a new dataset containing <i>Appearance-Situation-Position-Interaction-Relation</i> predicates, named <i>ASPIRe<i></i>, 
-                          offering an extensive collection of videos marked by a wide range of interactivities. Then, we propose a new approach named <i>Hierarchical Interlacement Graph (HIG)<i>, 
+                          To achieve this goal, we first present a new dataset containing <i>Appearance-Situation-Position-Interaction-Relation</i> predicates, named <i>ASPIRe</i>, 
+                          offering an extensive collection of videos marked by a wide range of interactivities. Then, we propose a new approach named <i>Hierarchical Interlacement Graph (HIG)</i>, 
                           which leverages a unified layer and graph within a hierarchical structure to provide deep insights into scene changes across five distinct tasks. 
                           Our approach demonstrates superior performance to other methods through extensive experiments conducted in various scenarios.
                         </p>
@@ -101,11 +103,9 @@
                 <div class="column is-four-fifths">
                     <h2 class="title is-3">Introduction</h2>
                     <div class="content has-text-justified">
-
-                        <p><i>GroOT</i> contains videos with various types of objects and their corresponding textual
-                            captions of 256K words describing their appearance and action in detail. To cover a diverse
-                            range of scenes, <i>GroOT</i> was created using official videos and bounding box annotations
-                            from the MOT17, TAO and MOT20.</p>
+                        <p><i>We introduce the new <i>ASPIRe</i> dataset to Visual Interactivity Understanding.
+                          The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range of scenes and settings, distributed in seven scenarios.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -118,9 +118,9 @@
                     <table class="title is-1 publication-title">
                         <thead>
                             <tr>
-                                <th>1.52K videos</th>
-                                <th>13.3K tracks</th>
-                                <th>256K words</th>
+                                <th>1,488 videos</th>
+                                <th>167,751 annotations</th>
+                                <th>4,549 interactivities</th>
                             </tr>
                         </thead>
                     </table>
@@ -133,7 +133,7 @@
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
                     <div class="content has-text-justified">
-                        <p>Here are examples of what's annotated on videos of the <i>GroOT</i> dataset: </p>
+                        <p>Examples of annotations found on the <i>ASPIRe</i> dataset: </p>
                     </div>
                 </div>
             </div> <video poster="static/images/MOT_sample.jpg" autoplay muted loop playsinline height="100%">
@@ -150,40 +150,17 @@
                         <h2 class="title is-5"> v1.0: </h2>
                         <div class="content">
                             <ul>
-                                <li>Category <span style="background-color: #dfdfdf"><b>name</b></span>, <span
-                                        style="background-color: #fefbcd"><b>synonyms</b></span> and <span
-                                        style="background-color: #f9dbc3"><b>definition</b></span>: <a
-                                        href="./annotations/v1.0/categories.json">[Categories]</a> </li>
-                                        <ul>
-                                            <li>Compatible with <a href="https://motchallenge.net/data/MOT17">MOT17</a>, <a href="https://taodataset.org/">TAO</a> and <a href="https://motchallenge.net/data/MOT20">MOT20</a></li>
-                                        </ul>
-                                <li>Tracklet <span style="background-color: #c0bffe"><b>captions</b></span>: <ul>
-                                        <li><a href="https://motchallenge.net/data/MOT17">MOT17</a> subset: <a
-                                                href="./annotations/v1.0/mot17_train_coco.json" target="_blank">[Train
-                                                annotations]</a>, <a href="./annotations/v1.0/mot17_test_coco.json"
-                                                target="_blank">[Sub-optimal test annotations]</a></li>
-                                        <li><a href="https://taodataset.org/">TAO</a> subset: <a
-                                            href="./annotations/v1.0/tao_train_coco.json" target="_blank">[Train
-                                            annotations]</a>, [Val annotations]</li>
+                                <li>The category <span style="background-color: #dfdfdf"><b>name</b></span>, <span
+                                        style="background-color: #c0bffe"><b>bbox</b></span>,  <span
+                                        style="background-color: #f9dbc3"><b>segmentation</b></span> and <span
+                                        style="background-color: #c7ffbf"><b>track_id</b></span> compatible with that <a href="https://taodataset.org/">TAO</a> dataset.</li>
+                                    <ul>
+                                        <li>Training set: <a href="./annotations/v1.0/train.json" target="_blank">[Train annotations]</a></li>
+                                        <li>Testing set: <a href="./annotations/v1.0/test.json" target="_blank">[Test annotations]</a></li>
                                     </ul>
-                                </li>
-                                <li>Object <span style="background-color: #c7ffbf"><b>retrieval</b></span>: <ul>
-                                    <li><a href="https://taodataset.org/">TAO</a> subset: <i>Under assessment</i></li>
-                                </ul>
-                            </li>
                             </ul>
                         </div>
-                        <h2 class="title is-5"> Notes: </h2>
-                        <div class="content">
-                            <ul>
-                                <li>Test annotation for tracklet <span style="background-color: #c0bffe"><b>captions</b></span> of MOT17 is a sub-optimal ground truth. That is the raw tracking data of the best-performant tracker at the time we constructed the annotations (i.e. <a href="https://motchallenge.net/method/MOT=5621&chl=10">BoT-SORT</a> at 80.5% MOTA and 80.2% IDF1).</li>
-                                <li>The <tt>`captions'</tt> field includes the first caption for appearance and the second for action. Any missing captions have been filled with a <tt>`None'</tt> value.</li>
-                                <li>The physical characteristics of a person or their personal accessories, such as their clothing, bag color, and hair color are considered to be part of their appearance. Therefore, the appearance captions include verbs carrying or holding to describe personal accessories.</li>
-                            </ul>
-                        </div>
-                        <h2 class="title is-5"> Licensing: </h2>
-                        <div class="content"> The annotations of <i>GroOT</i>, as well as the original source videos of
-                            MOT17 and TAO, are released under a <a
+                        <div class="content"> The annotations of <i>ASPIRe</i> and the original source videos are released under a <a
                                 href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA
                                 3.0</a> license per their creators. See <a href="https://motchallenge.net/"
                                 target="_blank">motchallenge.net</a> for details. </div>
@@ -228,7 +205,7 @@
             </div>
         </div>
     </section> -->
-    <section class="section">
+    <!-- <section class="section">
         <div class="container is-max-desktop content">
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
@@ -260,7 +237,7 @@
                 </tr>
             </table>
         </div>
-    </section>
+    </section> -->
     <footer class="footer">
         <div class="container">
             <div class="columns is-centered">
