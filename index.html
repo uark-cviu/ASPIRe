@@ -1,312 +1,285 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
-
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+    <meta charset="utf-8">
+    <title>Type-to-Track</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-825ET94Y3E"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-825ET94Y3E');</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
 </head>
+
 <body>
-
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">HIG: Hierarchical Interlacement Graph Approach to <br> Scene Graph Generation in Video Understanding</h1>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"> <a href="https://uark-cviu.github.io/" target="_blank">https://uark-cviu.github.io/</a></span>
+                        </div>
+                        <div class="is-size-5 publication-authors">
+                          <span class="author-block"> <a href="https://scholar.google.com/citations?user=ty0Njf0AAAAJ&hl=vi&authuser=1" target="_blank">Trong-Thuan Nguyen</a>, </span>
+                            <span class="author-block"> <a href="https://pha-nguyen.github.io/" target="_blank">Pha Nguyen</a>, </span>
+                            <span class="author-block"> <a href="https://scholar.google.com/citations?user=JPAl8-gAAAAJ" target="_blank">Khoa Luu</a></span>
+                        </div>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">University of Arkansas &nbsp; </span>
+                        </div>
+                        <div class="column has-text-centered">
+                            <h2 class="title">NeurIPS 2023</h2>
+                            <div class="publication-links">
+                                <span class="link-block"> <a href="./static/pdfs/main_paper.pdf" target="_blank" class="external-link button is-normal is-rounded"> <span class="icon"> <i class="fas fa-file-pdf"></i> </span> <span>Paper</span> </a> </span>
+                                <span class="link-block"> <a href="./static/pdfs/supp.pdf" target="_self" class="external-link button is-normal is-rounded"> <span class="icon"> <i class="fas fa-file-pdf"></i> </span> <span>Supplementary</span> </a> </span>
+                                <span class="link-block"> <a href="#annotations" target="_self" class="external-link button is-normal is-rounded"> <span class="icon"> <i class="fas fa-download"></i> </span> <span>Dataset</span> </a> </span>
+                                <!-- <span class="link-block"> <a href="https://github.com/uark-cviu/Type-to-Track" target="_blank" class="external-link button is-normal is-rounded"> <span class="icon"> <i class="fab fa-github"></i> </span> <span>Devkit</span> </a> </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+    </section>
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item"> <video poster="static/images/teaser_mot.png" autoplay muted loop playsinline
+                            height="100%">
+                            <source src="static/videos/teaser_mot.mp4" type="video/mp4">
+                        </video> </div>
+                    <div class="item"> <video poster="static/images/teaser_mot.png" autoplay muted loop playsinline
+                            height="100%">
+                            <source src="static/videos/teaser_tao.mp4" type="video/mp4">
+                        </video> </div>
+                </div>
+                <div class="captions has-text-justified"><b>The responsive <i>Type-to-Track</i>:</b> The user provides a
+                    video sequence and a prompting request. During tracking, the system is able to discriminate
+                    appearance attributes to track the target subjects accordingly and iteratively responds to the
+                    user's tracking request. Each box color represents a unique identity.</div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+    </section>
+    <section class="section hero is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>One of the recent trends in vision problems is to use natural language captions to describe
+                            the objects of interest. This approach can overcome some limitations of traditional methods
+                            that rely on bounding boxes or category annotations. This paper introduces a novel paradigm
+                            for Multiple Object Tracking called <i>Type-to-Track</i>, which allows users to track
+                            objects in videos by typing natural language descriptions. We present a new dataset for that
+                            Grounded Multiple Object Tracking task, called <i>GroOT</i>, that contains videos with
+                            various types of objects and their corresponding textual captions describing their
+                            appearance and action in detail. Additionally, we introduce two new evaluation protocols and
+                            formulate evaluation metrics specifically for this task. We develop a new efficient method
+                            that models a transformer-based eMbed-ENcoDE-extRact framework (<i>MENDER</i>) using the
+                            third-order tensor decomposition. The experiments in five scenarios show that our
+                            <i>MENDER</i> approach outperforms another two-stage design in terms of accuracy and
+                            efficiency, up to 14.7% accuracy and 4× speed faster.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
+    </section>
+    <section class="section hero is-small">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Introduction</h2>
+                    <div class="content has-text-justified">
+                        <p><i>GroOT</i> contains videos with various types of objects and their corresponding textual
+                            captions of 256K words describing their appearance and action in detail. To cover a diverse
+                            range of scenes, <i>GroOT</i> was created using official videos and bounding box annotations
+                            from the MOT17, TAO and MOT20.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
+    </section>
+    <section class="section hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <table class="title is-1 publication-title">
+                        <thead>
+                            <tr>
+                                <th>1.52K videos</th>
+                                <th>13.3K tracks</th>
+                                <th>256K words</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
         </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+    </section>
+    <section class="section hero is-small">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <div class="content has-text-justified">
+                        <p>Here are examples of what's annotated on videos of the <i>GroOT</i> dataset: </p>
+                    </div>
+                </div>
+            </div> <video poster="static/images/MOT_sample.jpg" autoplay muted loop playsinline height="100%">
+                <source src="static/videos/teaser_data.mp4" type="video/mp4">
+            </video>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    </section>
+    <section class="section hero is-small" id="annotations">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3 has-text-centered">Annotations</h2>
+                    <div class="column">
+                        <h2 class="title is-5"> v1.0: </h2>
+                        <div class="content">
+                            <ul>
+                                <li>Category <span style="background-color: #dfdfdf"><b>name</b></span>, <span
+                                        style="background-color: #fefbcd"><b>synonyms</b></span> and <span
+                                        style="background-color: #f9dbc3"><b>definition</b></span>: <a
+                                        href="./annotations/v1.0/categories.json">[Categories]</a> </li>
+                                        <ul>
+                                            <li>Compatible with <a href="https://motchallenge.net/data/MOT17">MOT17</a>, <a href="https://taodataset.org/">TAO</a> and <a href="https://motchallenge.net/data/MOT20">MOT20</a></li>
+                                        </ul>
+                                <li>Tracklet <span style="background-color: #c0bffe"><b>captions</b></span>: <ul>
+                                        <li><a href="https://motchallenge.net/data/MOT17">MOT17</a> subset: <a
+                                                href="./annotations/v1.0/mot17_train_coco.json" target="_blank">[Train
+                                                annotations]</a>, <a href="./annotations/v1.0/mot17_test_coco.json"
+                                                target="_blank">[Sub-optimal test annotations]</a></li>
+                                        <li><a href="https://taodataset.org/">TAO</a> subset: <a
+                                            href="./annotations/v1.0/tao_train_coco.json" target="_blank">[Train
+                                            annotations]</a>, [Val annotations]</li>
+                                    </ul>
+                                </li>
+                                <li>Object <span style="background-color: #c7ffbf"><b>retrieval</b></span>: <ul>
+                                    <li><a href="https://taodataset.org/">TAO</a> subset: <i>Under assessment</i></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <h2 class="title is-5"> Notes: </h2>
+                        <div class="content">
+                            <ul>
+                                <li>Test annotation for tracklet <span style="background-color: #c0bffe"><b>captions</b></span> of MOT17 is a sub-optimal ground truth. That is the raw tracking data of the best-performant tracker at the time we constructed the annotations (i.e. <a href="https://motchallenge.net/method/MOT=5621&chl=10">BoT-SORT</a> at 80.5% MOTA and 80.2% IDF1).</li>
+                                <li>The <tt>`captions'</tt> field includes the first caption for appearance and the second for action. Any missing captions have been filled with a <tt>`None'</tt> value.</li>
+                                <li>The physical characteristics of a person or their personal accessories, such as their clothing, bag color, and hair color are considered to be part of their appearance. Therefore, the appearance captions include verbs carrying or holding to describe personal accessories.</li>
+                            </ul>
+                        </div>
+                        <h2 class="title is-5"> Licensing: </h2>
+                        <div class="content"> The annotations of <i>GroOT</i>, as well as the original source videos of
+                            MOT17 and TAO, are released under a <a
+                                href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA
+                                3.0</a> license per their creators. See <a href="https://motchallenge.net/"
+                                target="_blank">motchallenge.net</a> for details. </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</footer>
+    </section>
+    <section class="section hero is-small is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column">
+                    <h2 class="title is-3 has-text-centered">Statistics</h2> <img src="static/images/Statistics.png"
+                        style="display: block; margin-left: auto; margin-right: auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section hero is-small is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column">
+                    <h2 class="title is-3 has-text-centered">Comparison</h2> <img src="static/images/GroOT.png"
+                        style="display: block; margin-left: auto; margin-right: auto" />
+                    <!-- <div id="results-carousel" class="carousel results-carousel"> <div class="item"> <img src="static/images/GroOT.png" style="display: block; margin-left: auto; margin-right: auto" /> </div> <div class="item"> <img src="static/images/MENDER.png" style="display: block; margin-left: auto; margin-right: auto" /> </div> </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3 has-text-centered">BibTeX</h2>
+                    <pre><code>@article{nguyen2023type,
+    title        = {Type-to-Track: Retrieve Any Object via Prompt-based Tracking},
+    author       = {Nguyen, Pha and Quach, Kha Gia and Kitani, Kris and Luu, Khoa},  
+    journal      = {Advances in Neural Information Processing Systems},
+    year         = 2023
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container is-max-desktop content">
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3 has-text-centered">Prior Works</h2>
+                    <div class="content has-text-justified">
+                        <p>[1] Kha Gia Quach, Pha Nguyen, Huu Le, Thanh-Dat Truong, Chi Nhan Duong, Minh-Triet Tran, and Khoa Luu. "<b>DyGLIP: A dynamic graph model with link prediction for accurate multi-camera multiple object tracking.</b>" In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021. [<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Quach_DyGLIP_A_Dynamic_Graph_Model_With_Link_Prediction_for_Accurate_CVPR_2021_paper.pdf">paper</a>, <a href="https://github.com/uark-cviu/DyGLIP">code</a>]</p>
+                        <p>[2] Pha Nguyen, Kha Gia Quach, Chi Nhan Duong, Ngan Le, Xuan-Bac Nguyen, and Khoa Luu. "<b>Multi-camera multiple 3d object tracking on the move for autonomous vehicles.</b>" In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2022. [<a href="https://openaccess.thecvf.com/content/CVPR2022W/Precognition/papers/Nguyen_Multi-Camera_Multiple_3D_Object_Tracking_on_the_Move_for_Autonomous_CVPRW_2022_paper.pdf">paper</a>]</p>
+                        <p>[3] Pha Nguyen, Kha Gia Quach, Chi Nhan Duong, Son Lam Phung, Ngan Le, and Khoa Luu. "<b>Multi-Camera Multi-Object Tracking on the Move via Single-Stage Global Association Approach.</b>" Under review. [<a href="https://browse.arxiv.org/pdf/2211.09663.pdf">paper</a>]</p>
+                        <p>[4] Pha Nguyen, Kha Gia Quach, John Gauch, Samee U. Khan, Bhiksha Raj, and Khoa Luu. "<b>UTOPIA: Unconstrained Tracking Objects without Preliminary Examination via Cross-Domain Adaptation.</b>" Under review. [<a href="https://arxiv.org/pdf/2306.09613.pdf">paper</a>]</p>
+                        <p>[5] Kha Gia Quach, Huu Le, Pha Nguyen, Chi Nhan Duong, Tien Dai Bui, and Khoa Luu. "<b>Depth Perspective-aware Multiple Object Tracking.</b>" Under review. [<a href="https://arxiv.org/pdf/2207.04551.pdf">paper</a>]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <h2 class="title is-3 has-text-centered">Sponsors</h2>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th style="text-align: center; vertical-align: middle;"><img src="./static/images/sponsors/NSF.png" alt="NSF"></th>
+                    <th style="text-align: center; vertical-align: middle;"><img src="./static/images/sponsors/DART.png" alt="DART"></th>
+                    <th style="text-align: center; vertical-align: middle;"><img src="./static/images/sponsors/google_research.png" alt="Google"></th>
+                    <th style="text-align: center; vertical-align: middle;"><img src="./static/images/sponsors/ahpcc.png" alt="AHPCC"></th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content is-small">
+                        <p>This page was built using the <a
+                                href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                                target="_blank">Academic Project Page Template</a>. <br> This website is licensed under
+                            a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+                                target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</html>
