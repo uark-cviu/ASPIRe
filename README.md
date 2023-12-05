@@ -36,7 +36,7 @@ Annotations
 v1.0:
 -----
 
-*   The category **name**, **bbox**,  **segmentation** and **track_id**: [\[Categories\]] compatible with that [TAO](https://taodataset.org/) dataset.
+*   The category **name**, **bbox**,  **segmentation** and **track_id** compatible with that [TAO](https://taodataset.org/) dataset.
     *   Training set: [\[Train annotations\]](./annotations/v1.0/train.json), 
     *   Testing set: [\[Test annotations\]](./annotations/v1.0/test.json),
 
