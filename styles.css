@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color: #0c0c0c;
+    color: #130487;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -86,10 +86,10 @@ nav a:hover {
     color: #ff5757;
 }
 
-/* Enhancing Buttons and Links */
+
 button, .button, a.button {
-    background-color:rgb(200, 198, 198);
-    color: #0c0c0c;
+    background-color:rgb(114, 113, 113);
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -175,4 +175,3 @@ img:hover {
     opacity: 0.8;
     transition: opacity 0.3s;
 }
-
