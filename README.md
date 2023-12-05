@@ -1,7 +1,7 @@
 # HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding
 
 
-[**HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding**]("./static/pdfs/main_paper.pdf")
+[**HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding**](./static/pdfs/main_paper.pdf)
 
 [Trong-Thuan Nguyen](https://scholar.google.com/citations?user=ty0Njf0AAAAJ&hl=vi&authuser=1), [Pha Nguyen](https://pha-nguyen.github.io/), [Khoa Luu](https://scholar.google.com/citations?user=JPAl8-gAAAAJ)
 
