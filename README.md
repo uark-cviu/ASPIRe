@@ -1,44 +1,55 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding
 
 
-Example project pages built using this template are:
-- https://www.vision.huji.ac.il/deepsim/
-- https://www.vision.huji.ac.il/3d_ads/
-- https://www.vision.huji.ac.il/ssrl_ad/
-- https://www.vision.huji.ac.il/conffusion/
+[**HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding**]("./static/pdfs/main_paper.pdf")
+
+[Trong-Thuan Nguyen](https://scholar.google.com/citations?user=ty0Njf0AAAAJ&hl=vi&authuser=1), [Pha Nguyen](https://pha-nguyen.github.io/), [Khoa Luu](https://scholar.google.com/citations?user=JPAl8-gAAAAJ)
 
 
-## Start using the template
-To start using the template click on `Use this Template`.
+Abstract
+--------
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+Visual interactivity understanding within visual scenes presents a significant challenge in computer vision. 
+Existing methods focus on complex interactivities while leveraging a simple relationship model. 
+These methods, however, struggle with a diversity of appearance, situation, position, interaction, and relation in videos. 
+This limitation hinders the ability to fully comprehend the interplay within the complex visual dynamics of subjects. 
+In this paper, we delve into interactivities understanding within visual content by deriving scene graph representations from dense interactivities among humans and objects. 
+To achieve this goal, we first present a new dataset containing <i>Appearance-Situation-Position-Interaction-Relation</i> predicates, named <i>ASPIRe</i>, 
+offering an extensive collection of videos marked by a wide range of interactivities. Then, we propose a new approach named <i>Hierarchical Interlacement Graph (HIG)</i>, 
+which leverages a unified layer and graph within a hierarchical structure to provide deep insights into scene changes across five distinct tasks. 
+Our approach demonstrates superior performance to other methods through extensive experiments conducted in various scenarios.
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+Introduction
+------------
 
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
+We introduce the new <i>ASPIRe</i> dataset to Visual Interactivity Understanding.
+The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range of scenes and settings, distributed in seven scenarios.
 
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
+<video width="940" height="480" controls>
+  <source src="./static/videos/teaser-aspire.mp4" type="video/mp4">
+</video>
+Examples of annotations found on the <i>ASPIRe</i> dataset.
 
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+Annotations
+-----------
 
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+v1.0:
+-----
+
+*   The category **name**, **bbox**,  **segmentation** and **track_id**: [\[Categories\]] compatible with that [TAO](https://taodataset.org/) dataset.
+    *   Training set: [\[Train annotations\]](./annotations/v1.0/train.json), 
+    *   Testing set: [\[Test annotations\]](./annotations/v1.0/test.json),
+
+
+Licensing:
+----------
+
+The annotations of <i>ASPIRe</i> and the original source videos are released under a <a
+href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA
+3.0</a> license per their creators. See <a href="https://motchallenge.net/"
+target="_blank">motchallenge.net</a> for details.
+
+
+
+This page was built using the [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template).  
+This website is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
