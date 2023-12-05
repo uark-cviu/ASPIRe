@@ -26,7 +26,7 @@ We introduce the new <i>ASPIRe</i> dataset to Visual Interactivity Understanding
 The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range of scenes and settings, distributed in seven scenarios.
 
 <video width="940" height="480" controls>
-  <source src="./static/videos/teaser-aspire.mp4" type="video/mp4">
+  <source src=./static/videos/teaser-aspire.mp4 type="video/mp4">
 </video>
 Examples of annotations found on the <i>ASPIRe</i> dataset.
 
