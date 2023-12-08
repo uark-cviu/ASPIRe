@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color: #130487;
+    color: #5da7f6;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -88,7 +88,7 @@ nav a:hover {
 
 
 button, .button, a.button {
-    background-color:rgb(114, 113, 113);
+    background-color:rgb(10, 10, 10);
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -200,4 +200,23 @@ img:hover {
     width: 100%; /* Ensures the carousel takes the full width of its container */
     max-width: none; /* Remove max-width constraint */
     text-align: center; /* Centers the navigation buttons */
+}
+.video-carousel button {
+    background-color: #000203; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    margin: 5px; /* Margin around buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.video-carousel button:hover {
+    background-color: #6aa9ed; /* Darker blue on hover */
+}
+
+.video-carousel i {
+    margin-right: 5px; /* Space between icon and text */
 }
