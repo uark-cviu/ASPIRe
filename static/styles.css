@@ -197,10 +197,18 @@ img:hover {
 }
 
 .video-carousel {
-    width: 100%; /* Ensures the carousel takes the full width of its container */
-    max-width: none; /* Remove max-width constraint */
+    width: 80%; /* Carousel takes 80% of the container's width */
+    max-width: none; /* No maximum width constraint */
     text-align: center; /* Centers the navigation buttons */
+    margin: auto; /* Centers the carousel in the available space */
 }
+
+.video-carousel video {
+    width: 100%; /* Each video takes 100% of the carousel's width */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
+    max-width: 1500px; /* Increased maximum width for each video */
+}
+
 .video-carousel button {
     background-color: #000203; /* Blue background */
     color: white; /* White text */
@@ -214,7 +222,7 @@ img:hover {
 }
 
 .video-carousel button:hover {
-    background-color: #6aa9ed; /* Darker blue on hover */
+    background-color: #878789; /* Darker blue on hover */
 }
 
 .video-carousel i {
