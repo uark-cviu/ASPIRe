@@ -175,3 +175,29 @@ img:hover {
     opacity: 0.8;
     transition: opacity 0.3s;
 }
+.results-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-carousel .item video {
+    width: 100%; /* Ensures video takes the full width of its container */
+    height: auto; /* Maintains the aspect ratio of the video */
+}
+.videos video {
+    display: none;
+    width: 100%; /* Makes the video take up the full width of its container */
+    height: auto; /* Maintains the aspect ratio of the video */
+    margin: auto; /* Centers the video horizontally */
+}
+
+.videos video:first-child {
+    display: block;
+}
+
+.video-carousel {
+    width: 100%; /* Ensures the carousel takes the full width of its container */
+    max-width: none; /* Remove max-width constraint */
+    text-align: center; /* Centers the navigation buttons */
+}

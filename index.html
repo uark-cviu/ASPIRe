@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 
 <body>
@@ -167,6 +168,27 @@
             </div>
         </div>
     </section>
+    <section class="section hero is-small">
+        <div class="container is-fluid"> <!-- Changed to 'is-fluid' for a full-width container -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column"> <!-- Removed the size class for the column -->
+                    <h2 class="title is-3">Qualitative Results</h2>
+                    <div class="video-carousel">
+                        <div class="videos">
+                            <video id="video1" src="static/videos/predict-girl.mp4" type="video/mp4" controls></video>
+                            <video id="video2" src="static/videos/predict-basketball.mp4" type="video/mp4" controls></video>
+                            <video id="video1" src="static/videos/predict-grass.mp4" type="video/mp4" controls></video>
+                            <video id="video2" src="static/videos/predict-film.mp4" type="video/mp4" controls></video>
+                            <video id="video1" src="static/videos/predict-umbrella.mp4" type="video/mp4" controls></video>
+                            <video id="video2" src="static/videos/predict-boy.mp4" type="video/mp4" controls></video>
+                        </div>
+                        <button id="prevBtn">Previous</button>
+                        <button id="nextBtn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="columns is-centered">
@@ -184,5 +206,28 @@
         </div>
     </footer>
 </body>
+<!-- jQuery and Slick Carousel JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<!-- Initialize Slick Carousel -->
+<script>
+    let currentVideoIndex = 0;
+    const videos = document.querySelectorAll('.videos video');
+    const totalVideos = videos.length;
+
+    document.getElementById('prevBtn').addEventListener('click', function() {
+        changeVideo(-1);
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', function() {
+        changeVideo(1);
+    });
+
+    function changeVideo(direction) {
+        videos[currentVideoIndex].style.display = 'none';
+        currentVideoIndex = (currentVideoIndex + direction + totalVideos) % totalVideos;
+        videos[currentVideoIndex].style.display = 'block';
+    }
+</script>
 </html>
