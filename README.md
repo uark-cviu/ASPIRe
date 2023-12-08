@@ -25,6 +25,9 @@ Introduction
 We introduce the new <i>ASPIRe</i> dataset to Visual Interactivity Understanding.
 The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range of scenes and settings, distributed in seven scenarios.
 
+Examples of annotations found on the ASPIRe dataset.
+
+
 
 Annotations
 -----------
