@@ -54,14 +54,18 @@
                                 <span class="link-block"> <a href="#annotations" target="_self" class="external-link button is-normal is-rounded"> <span class="icon"> <i class="fas fa-download"></i> </span> <span>Dataset</span> </a> </span>
                             </div>
                         </div>
-                        <div class="column is-12">
-                            <div class="video-container">
-                                <video autoplay muted loop playsinline>
-                                    <source src="static/videos/teaser-aspire.mp4" type="video/mp4">
-                                </video>
-                                <div class="captions has-text-justified">
-                                    Examples of annotations found on the <i>ASPIRe</i> dataset.
-                                </div>
+                        <div class="video-container">
+                            <div class="videos">
+                                <video id="video1" src="static/videos/predict-boy.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+                                <video id="video2" src="static/videos/predict-basketball.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+                                <video id="video3" src="static/videos/predict-girl.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+                                <video id="video4" src="static/videos/predict-film.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+                                <video id="video5" src="static/videos/predict-umbrella.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+                            </div>
+                            <p class="caption">Exemplary for scene graphs generated from the Hierarchical Interlacement Graph (HIG) model.</p>
+                            <div class="video-navigation">
+                                <button id="prevBtn"><i class="fas fa-arrow-circle-left"></i> Previous</button>
+                                <button id="nextBtn">Next <i class="fas fa-arrow-circle-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -118,6 +122,11 @@
                         </thead>
                     </table>
                 </div>
+                <div class="video-container">
+                    <video autoplay muted loop playsinline>
+                        <source src="static/videos/teaser-aspire.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
     </section>
@@ -165,27 +174,6 @@
                 <div class="column">
                     <h2 class="title is-3 has-text-centered">Comparison</h2> <img src="static/images/ASPIRe.png"
                         style="display: block; margin-left: auto; margin-right: auto" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section hero is-small">
-        <div class="container is-fluid"> <!-- Changed to 'is-fluid' for a full-width container -->
-            <div class="columns is-centered has-text-centered">
-                <div class="column"> <!-- Removed the size class for the column -->
-                    <h2 class="title is-3">Qualitative Results</h2>
-                    <div class="video-carousel">
-                        <div class="videos">
-                            <video id="video1" src="static/videos/predict-girl.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                            <video id="video2" src="static/videos/predict-basketball.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                            <video id="video3" src="static/videos/predict-grass.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                            <video id="video4" src="static/videos/predict-film.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                            <video id="video5" src="static/videos/predict-umbrella.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                            <video id="video6" src="static/videos/predict-boy.mp4" type="video/mp4" autoplay muted loop playsinline></video>
-                        </div>
-                        <button id="prevBtn"><i class="fas fa-arrow-circle-left"></i> Previous</button>
-                        <button id="nextBtn">Next <i class="fas fa-arrow-circle-right"></i></button>
-                    </div>
                 </div>
             </div>
         </div>

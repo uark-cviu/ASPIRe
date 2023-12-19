@@ -228,3 +228,53 @@ img:hover {
 .video-carousel i {
     margin-right: 5px; /* Space between icon and text */
 }
+.videos video {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+.video-item {
+    position: relative;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos {
+    margin-bottom: 10px; /* Space between videos and caption */
+}
+
+.caption {
+    text-align: center;
+    background-color: whitesmoke; /* White background for the textbox */
+    color: black; /* Black text color */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between caption and navigation buttons */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
+    border-radius: 5px; /* Optional: rounds the corners of the textbox */
+    max-width: 80%; /* Limits the width of the caption box */
+    margin-left: auto; /* These two lines center the box */
+    margin-right: auto;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+.footer {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+.columns {
+    display: grid;
+    justify-content: center;
+}
+
+.column.is-8 {
+    grid-column: span 8 / auto; /* Adjust the span based on your grid system */
+}
+
+
+
