@@ -27,7 +27,7 @@ The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range o
 
 Examples of annotations found on the ASPIRe dataset.
 
-https://github.com/uark-cviu/ASPIRe/assets/43246340/537b1615-a3a1-4ae3-bd83-9c7ad9770cc3
+
 
 
 
