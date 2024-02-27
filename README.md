@@ -1,4 +1,4 @@
-# HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding
+# HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding (CVPR 2024)
 
 
 [**HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding**](./static/pdfs/main_paper.pdf)
