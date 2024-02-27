@@ -27,14 +27,7 @@ The diversity of the <i>ASPIRe</i> dataset is showcased through its wide range o
 
 Examples of annotations found on the ASPIRe dataset.
 
-
-
 https://github.com/uark-cviu/ASPIRe/assets/43246340/03b0f47e-ef7b-459c-bd89-10f2dcf589b5
-
-
-
-
-
 
 Annotations
 -----------
@@ -42,9 +35,9 @@ Annotations
 v1.0:
 -----
 
-*   The category **name**, **bbox**,  **segmentation** and **track_id** compatible with that [TAO](https://taodataset.org/) dataset.
+*   The category **name**, **bbox**,  **segmentation** and **track_id** compatible with [TAO](https://taodataset.org/) dataset.
     *   Training set: [\[Train annotations\]](./annotations/v1.0/train.json), 
-    *   Validation set: [\[Validation annotations\]](./annotations/v1.0/test.json),
+    *   Validation set: [\[Validation annotations\]](./annotations/v1.0/validation.json),
 
 
 Licensing:
